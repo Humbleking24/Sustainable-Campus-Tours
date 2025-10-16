@@ -1,0 +1,4 @@
+Manipal University Coords: 26.8439,75.5652
+NorthWest Coords: 26.8460,75.5623
+SouthEast Coords: 26.8423, 75.5680
+Test Marker: 26.8442, 75.5650
