@@ -18,7 +18,7 @@ function App() {
           fontSize: '24px'
         }}
       >
-        🌿 Sustainable Campus Tours 🌿
+        Sustainable Campus Tours
       </h1>
 
       {/* Full-page campus map */}
