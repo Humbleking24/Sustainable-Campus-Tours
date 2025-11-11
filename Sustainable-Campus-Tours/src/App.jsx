@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import CampusMap from "./Map"; // 👈 import your Leaflet map
+import CampusMap from "./map"; 
 
 function App() {
   return (
@@ -12,10 +12,22 @@ function App() {
           <a href="#about">About</a>
           <a href="#map">Map</a>
         </nav>
+
+<div className="search-bar">
+  <i className="bx bx-scan"></i>
+  <input
+    type="text"
+    placeholder="Search for plants..."
+    className="search-input"
+  />
+</div>
+
+
+
         <button className="btn-primary">Login</button>
       </header>
 
-      {/* 🏠 Home Section */}
+      {/* Home Section */}
       <section id="home" className="hero">
         <div className="hero-content">
           <h1>Explore Your Campus</h1>
@@ -34,7 +46,7 @@ function App() {
         />
       </section>
 
-      {/* 🌱 About Section */}
+      {/*  About Section */}
       <section id="about" className="features">
         <div className="feature">
           <h3>Green Energy</h3>
@@ -46,7 +58,7 @@ function App() {
         </div>
       </section>
 
-      {/* 🗺️ Map Section */}
+      {/*  Map Section */}
       <section id="map" className="map-section">
         <h2>Campus Map</h2>
         <div className="map-container">
@@ -54,7 +66,7 @@ function App() {
         </div>
       </section>
 
-      {/* 🌍 Call to Action */}
+      {/*  Call to Action */}
       <section className="cta">
         <h2>
           “Like wildflowers, you must allow yourself to grow in all the places
